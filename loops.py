@@ -1,0 +1,6 @@
+print((15 % 4) + (15 // 4))
+print((10 > 5) and (3 > 5))
+print((10 > 5) or (3 > 5))
+print(not(5 == 5))
+print((2 ** 3) % 5)
+print(not(6 == 5))
