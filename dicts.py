@@ -1,15 +1,14 @@
-product = {
-    "name" : "Shirt",
-    "price" : 200,
-    "in_stock" : "yes",
-    "colour" : "white"
+students_gpas = {
+    "Regan": {
+        "term" : "2026S",
+        "gpa": 4.3
+    },
+    "TK": {
+        "term" : "2026M",
+        "gpa": 2.6
+    }
 }
 
-print(product["name"])
-print(product["price"])
-product["place"] = "Nairobi"
-product["price"] = "350"
-print(product.get("price"))
-print(product["colour"])
-product["design"] = "smart"
-print(product["design"])
+for x in students_gpas:
+    print(x, students_gpas[x])
+
